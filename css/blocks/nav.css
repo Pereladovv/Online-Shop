@@ -17,16 +17,27 @@
     color: #000000;
 }
 
+@media (min-width: 992px) {
+    a.nav__logo {
+        margin-right: 83px;
+    }
+}
+
 a.nav__logo:hover {
     color: #F72464;
 }
 
 .nav__list {
+    display: none;
+}
+
+
+/* .nav__list {
     display: flex;
     margin: 0;
     padding: 0;
     list-style-type: none;
-}
+} */
 
 .nav__item {
     margin-right: 30px;
